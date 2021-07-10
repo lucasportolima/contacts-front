@@ -1,0 +1,29 @@
+@mixin snackbar {
+    .icon {
+        font-size: 30px !important;
+        margin-left: 3px;
+        margin-right: 14px;
+    }
+
+    .text-snackbar {
+        width: 85%;
+        display: block;
+        float: right;
+        min-width: 270px;
+        max-width: 311px;
+        color: #f7f7f7;
+    }
+
+    ::v-deep .v-snack__wrapper {
+        max-width: 470px !important;
+        border-radius: 6px !important;
+
+        .v-snack__content {
+            align-items: center !important;
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: wrap !important;
+            justify-content: center !important;
+        }
+    }
+}

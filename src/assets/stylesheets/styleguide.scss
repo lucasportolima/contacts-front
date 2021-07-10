@@ -1,0 +1,75 @@
+// =============================================
+// Typography
+// =============================================
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// Font Family
+$font-primary: 'Barlow', sans-serif;
+
+// Font Weight
+$font-black: 900;
+$font-bold: 700;
+$font-normal: 400;
+$font-light: 300;
+
+// Font Size
+$h1-headline: 32px;
+$h2-headline: 30px;
+$h3-headline: 18px;
+$subtitle-1: 16px;
+$subtitle-2: 14px;
+$body-1: 16px;
+$body-2: 14px;
+$button: 16px;
+$button-small: 14px;
+$caption: 12px;
+$overline: 10px;
+
+// Line Height
+$lh-h1-headline: 39px;
+$lh-h2-headline: 36px;
+$lh-h3-headline: 22px;
+$lh-subtitle-1: 19px;
+$lh-subtitle-2: 17px;
+$lh-body-1: 19px;
+$lh-body-2: 17px;
+$lh-button: 19px;
+$lh-button-small: 17px;
+$lh-caption: 15px;
+$lh-overline: 12px;
+
+// Navigation
+$nav-width: 256px;
+
+// =============================================
+// Color pallette
+// =============================================
+
+$primary-color-1: #112E4D;
+$primary-color-2: #d4ff00;
+$secondary-color-1: #00b395;
+$black-1: #263238;
+$black-2: #455a64;
+$black-3: #607d8b;
+$black-4: #90a4ae;
+$white-1: #eceff1;
+$white-2: #b0bec5;
+$white-3: #78909c;
+$error: #ff444e;
+$success: #8add46;
+$attention: #fcdb46;
+$information: #38bcff;
+$secondary-text: #757575;
+$background: #e5e6e8;
+:root {
+  --box-shadow: 0 15px 25px -15px rgba(74, 91, 104, 0.4);
+}
+
+.offset-top {
+  margin-top: 1em;
+}
+.offset-top-2 {
+  margin-top: 2em;
+}

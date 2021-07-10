@@ -1,0 +1,11 @@
+{
+  "integrationFolder": "tests/e2e/specs",
+  "fixturesFolder":"false",
+  "supportFile": "tests/e2e/support/index.js",
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "env": {
+    "login_url": "http://localhost:8080",
+    "login_user": "admin",
+    "login_password": "1234"
+  }
+}
